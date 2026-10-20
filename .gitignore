@@ -1,0 +1,10 @@
+# Окружение и кэши
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+# Датасет скачивается кодом (dlcv/data_utils.py: ensure_cifar10), в git не хранится
+python/dlcv/datasets/*
+!python/dlcv/datasets/.gitkeep
+# Модели, которые сохраняют ноутбуки
+python/dlcv/saved/*.npy
