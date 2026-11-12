@@ -8,3 +8,12 @@ python/dlcv/datasets/*
 !python/dlcv/datasets/.gitkeep
 # Модели, которые сохраняют ноутбуки
 python/dlcv/saved/*.npy
+
+# Lab 2 data and local training artifacts
+assignment2/dlcv/datasets/
+**/__pycache__/
+**/.ipynb_checkpoints/
+*.pt
+*.pth
+*.log
+.venv/
